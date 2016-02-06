@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="BTHomeListCellIdentifier" rowHeight="260" id="xP0-pB-ngZ" customClass="BTHomeListCell">
+            <rect key="frame" x="0.0" y="0.0" width="378" height="260"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="xP0-pB-ngZ" id="mOZ-yr-JD8">
+                <rect key="frame" x="0.0" y="0.0" width="378" height="259"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="gpM-i7-CCX">
+                        <rect key="frame" x="0.0" y="0.0" width="378" height="200"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="200" id="ram-G3-p8B"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home_heart" translatesAutoresizingMaskIntoConstraints="NO" id="a1Y-PH-86Z">
+                        <rect key="frame" x="153" y="231" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="20" id="Q7t-fu-gqB"/>
+                            <constraint firstAttribute="height" constant="20" id="V2g-hL-n7Q"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="700" text="小清新下呀有哎呀啊一样啊有" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nua-sU-EHO">
+                        <rect key="frame" x="86" y="207" width="195" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Like" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ToF-Cs-r0a">
+                        <rect key="frame" x="181" y="232" width="183" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="gpM-i7-CCX" firstAttribute="leading" secondItem="mOZ-yr-JD8" secondAttribute="leading" id="39F-cP-4RK"/>
+                    <constraint firstItem="a1Y-PH-86Z" firstAttribute="top" secondItem="nua-sU-EHO" secondAttribute="bottom" constant="6" id="3JF-7Z-Wmu"/>
+                    <constraint firstAttribute="trailing" secondItem="gpM-i7-CCX" secondAttribute="trailing" id="5cC-eP-vcH"/>
+                    <constraint firstItem="a1Y-PH-86Z" firstAttribute="centerY" secondItem="ToF-Cs-r0a" secondAttribute="centerY" id="6aH-Mg-lf9"/>
+                    <constraint firstItem="ToF-Cs-r0a" firstAttribute="leading" secondItem="a1Y-PH-86Z" secondAttribute="trailing" constant="8" id="JaZ-AM-f3u"/>
+                    <constraint firstItem="nua-sU-EHO" firstAttribute="top" secondItem="gpM-i7-CCX" secondAttribute="bottom" constant="7" id="Pae-4k-Twq"/>
+                    <constraint firstItem="a1Y-PH-86Z" firstAttribute="centerX" secondItem="mOZ-yr-JD8" secondAttribute="centerX" constant="-26" id="VCo-xc-5H8"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="ToF-Cs-r0a" secondAttribute="trailing" constant="6" id="kb8-r5-fNB"/>
+                    <constraint firstItem="nua-sU-EHO" firstAttribute="centerX" secondItem="mOZ-yr-JD8" secondAttribute="centerX" constant="-5.5" id="vwy-Au-Dm0"/>
+                    <constraint firstItem="gpM-i7-CCX" firstAttribute="top" secondItem="mOZ-yr-JD8" secondAttribute="top" id="zUF-RT-ThC"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="listImageView" destination="gpM-i7-CCX" id="LpV-9d-Otn"/>
+                <outlet property="listTitle" destination="nua-sU-EHO" id="zg3-jk-Heh"/>
+                <outlet property="praiseCountLabel" destination="ToF-Cs-r0a" id="nAp-j2-8wk"/>
+            </connections>
+            <point key="canvasLocation" x="611" y="388"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="home_heart" width="40" height="40"/>
+        <image name="placeholder" width="320" height="150"/>
+    </resources>
+</document>
