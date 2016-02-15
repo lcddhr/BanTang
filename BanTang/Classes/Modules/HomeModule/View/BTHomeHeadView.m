@@ -204,11 +204,17 @@
 - (NSArray *)createMenuItem {
     
     NSMutableArray *items = [NSMutableArray arrayWithCapacity:4];
+    NSArray *itemTitles = @[@"好物",@"搜索",@"种草",@"签到"];
     for (NSInteger i = 0; i < 4; i++) {
         
         BTHomeMenuItem *item = [BTHomeMenuItem createMenuItem];
         item.tag = i;
         [items addObject:item];
+        NSString *imageName = [NSString stringWithFormat:@"button%ld",i+1];
+        UIImage *image = [UIImage imageNamed:imageName];
+//        [item.menuButton setImage:image forState:UIControlStateNormal];
+        item.menuTitle.text = itemTitles[i];
+        image = nil;
     }
     return items;
 }

@@ -66,6 +66,7 @@ PODS:
   - UIImageView+SDWebImage_M13ProgressSuite (0.1.1):
     - M13ProgressSuite
     - SDWebImage/WebP
+  - WMPageController (1.4.0)
 
 DEPENDENCIES:
   - AFNetworking (~> 3.0.4)
@@ -77,6 +78,7 @@ DEPENDENCIES:
   - PINCache (~> 2.1.2)
   - SDCycleScrollView (~> 1.6)
   - UIImageView+SDWebImage_M13ProgressSuite (~> 0.1.1)
+  - WMPageController
 
 SPEC CHECKSUMS:
   AFNetworking: a0075feb321559dc78d9d85b55d11caa19eabb93
@@ -94,5 +96,6 @@ SPEC CHECKSUMS:
   SDWebImage: 69c6303e3348fba97e03f65d65d4fbc26740f461
   SQLCipher: d490d2effe735895d2204d25a154b1e722278421
   UIImageView+SDWebImage_M13ProgressSuite: 01693ceed1ec4ca2c36f8af71d54993d5c86fd07
+  WMPageController: 6515091ceca9ad834e52d041611d33cb8999ac83
 
 COCOAPODS: 0.39.0

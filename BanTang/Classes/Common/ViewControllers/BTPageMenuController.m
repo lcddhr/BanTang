@@ -91,7 +91,9 @@
     titlePageTabBar.selectedTextColor = kBTNavBarColor;
     self.slidePageScrollView.pageTabBar = titlePageTabBar;
 
-    self.slidePageScrollView.headerView = _headView;
+    if (_headView) {
+          self.slidePageScrollView.headerView = _headView;
+    }
 }
 
 #pragma mark - datasource

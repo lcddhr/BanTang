@@ -39,9 +39,6 @@
 
 
 #pragma mark - LifeCycle
-
-
-
 -(void)viewDidLoad {
     
     [super viewDidLoad];
@@ -63,6 +60,7 @@
     [self loadHomeData];
 }
 
+#pragma mark - Private
 - (void)configBanner:(NSArray *)banners {
     
     NSArray *imageUrls  = [self.homePresent filterBannerUrls:banners];
@@ -86,6 +84,7 @@
 }
 
 #pragma mark - Request
+
 - (void)loadHomeData {
     
     [[HomeDataManager manager] fetchHomeData:^(NSArray *bannerModels, NSArray *topicModels) {
@@ -130,13 +129,12 @@
         
         return;
     }
-    NSLog(@"%ld",(long)index);
     _currentListIndex = index;
     BTListViewController *listvc = self.controllers[index];
     [listvc reloadWithListData:_lists];
 }
 
-#pragma mark - getter and setter 
+#pragma mark - Getter and Setter
 -(BTHomePresent *)homePresent {
     
     if (!_homePresent) {

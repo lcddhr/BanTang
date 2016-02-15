@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '0980FFC0C7BB5BBD4FEF137B'
+               BlueprintIdentifier = '35EECAADA413DA7E9B67FB42'
                BlueprintName = 'UIImageView+SDWebImage_M13ProgressSuite'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libUIImageView+SDWebImage_M13ProgressSuite.a'>

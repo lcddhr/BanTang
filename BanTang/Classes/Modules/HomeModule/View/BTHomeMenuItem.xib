@@ -11,9 +11,9 @@
             <rect key="frame" x="0.0" y="0.0" width="80" height="100"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jz4-gg-nyS">
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jz4-gg-nyS">
                     <rect key="frame" x="0.0" y="0.0" width="80" height="79"/>
-                    <state key="normal" title="Button"/>
+                    <state key="normal" image="button1"/>
                     <connections>
                         <action selector="tapMenuButtonAction:" destination="f3k-Qc-436" eventType="touchUpInside" id="ERj-ok-Y8D"/>
                     </connections>
@@ -24,7 +24,7 @@
                         <constraint firstAttribute="height" constant="21" id="Bdn-Sy-4vP"/>
                     </constraints>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="textColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                     <nil key="highlightedColor"/>
                 </label>
             </subviews>
@@ -46,4 +46,7 @@
             <point key="canvasLocation" x="231" y="302"/>
         </view>
     </objects>
+    <resources>
+        <image name="button1" width="80" height="80"/>
+    </resources>
 </document>

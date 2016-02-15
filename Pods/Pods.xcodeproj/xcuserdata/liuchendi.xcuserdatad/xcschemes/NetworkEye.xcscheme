@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '256095D309CAEB092106A90C'
+               BlueprintIdentifier = '19FB4A6E9989B03BD9EC5AE5'
                BlueprintName = 'NetworkEye'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libNetworkEye.a'>

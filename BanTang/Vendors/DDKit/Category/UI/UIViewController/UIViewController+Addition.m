@@ -7,7 +7,6 @@
 
 #import "UIViewController+Addition.h"
 #import <objc/runtime.h>
-//#import "LNResource.h"
 
 static char *ddLeftItem;
 static char *ddRightItem;

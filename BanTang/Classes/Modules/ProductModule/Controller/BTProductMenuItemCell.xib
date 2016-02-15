@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="BTProductMenuItemCellIdentifier" id="Wh9-BB-bXu" customClass="BTProductMenuItemCell">
+            <rect key="frame" x="0.0" y="0.0" width="100" height="120"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="100" height="120"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="button1" translatesAutoresizingMaskIntoConstraints="NO" id="Y17-HG-cGY">
+                        <rect key="frame" x="20" y="8" width="60" height="60"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="60" id="3qv-BN-RQc"/>
+                            <constraint firstAttribute="width" constant="60" id="cQs-O1-pPj"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="手机控" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m8f-Cd-Zb0">
+                        <rect key="frame" x="28" y="73" width="45" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="11150人气" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tqq-cw-Lah">
+                        <rect key="frame" x="22" y="95" width="56" height="15"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <constraints>
+                <constraint firstItem="m8f-Cd-Zb0" firstAttribute="centerX" secondItem="Wh9-BB-bXu" secondAttribute="centerX" id="0aT-9J-glc"/>
+                <constraint firstItem="tqq-cw-Lah" firstAttribute="top" secondItem="m8f-Cd-Zb0" secondAttribute="bottom" constant="4" id="21P-GH-Y07"/>
+                <constraint firstItem="Y17-HG-cGY" firstAttribute="top" secondItem="Wh9-BB-bXu" secondAttribute="top" constant="8" id="BYN-nM-KRh"/>
+                <constraint firstItem="m8f-Cd-Zb0" firstAttribute="top" secondItem="Y17-HG-cGY" secondAttribute="bottom" constant="5" id="GSl-cf-aA3"/>
+                <constraint firstItem="tqq-cw-Lah" firstAttribute="centerX" secondItem="Wh9-BB-bXu" secondAttribute="centerX" id="Ghq-LT-gZQ"/>
+                <constraint firstItem="Y17-HG-cGY" firstAttribute="centerX" secondItem="Wh9-BB-bXu" secondAttribute="centerX" id="yzV-g2-4q1"/>
+            </constraints>
+            <size key="customSize" width="137" height="157"/>
+            <connections>
+                <outlet property="itemImageView" destination="Y17-HG-cGY" id="I0p-R7-BuB"/>
+                <outlet property="itemTitle" destination="m8f-Cd-Zb0" id="Xw3-4X-3cU"/>
+                <outlet property="popularityCount" destination="tqq-cw-Lah" id="8pJ-XN-Mxk"/>
+            </connections>
+            <point key="canvasLocation" x="649" y="333"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="button1" width="80" height="80"/>
+    </resources>
+</document>
