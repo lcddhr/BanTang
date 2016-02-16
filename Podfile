@@ -14,7 +14,6 @@ pod 'UIImageView+SDWebImage_M13ProgressSuite', '~> 0.1.1'
 pod 'PINCache', '~> 2.1.2'
 pod 'SDCycleScrollView','~> 1.6'
 
-pod 'WMPageController'
 
 
 

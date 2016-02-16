@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="BTProductListCellIdentifier" rowHeight="150" id="vJ6-Jd-N6x" customClass="BTProductListCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="150"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="vJ6-Jd-N6x" id="mKR-rS-aI5">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="149"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="button2" translatesAutoresizingMaskIntoConstraints="NO" id="ogz-la-N1c">
+                        <rect key="frame" x="10" y="10" width="300" height="129"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="唯有动漫和游戏不可辜负" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AM4-S2-Xbm">
+                        <rect key="frame" x="78" y="56" width="165" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="86448浏览" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BfI-jg-6C1">
+                        <rect key="frame" x="99" y="87" width="63" height="15"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="80帖子" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N2W-3z-uoY">
+                        <rect key="frame" x="167" y="87" width="40" height="15"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="BfI-jg-6C1" firstAttribute="centerX" secondItem="ogz-la-N1c" secondAttribute="centerX" constant="-30" id="3Yd-kZ-n17"/>
+                    <constraint firstItem="N2W-3z-uoY" firstAttribute="leading" secondItem="BfI-jg-6C1" secondAttribute="trailing" constant="5" id="8CX-86-sxe"/>
+                    <constraint firstItem="BfI-jg-6C1" firstAttribute="centerY" secondItem="ogz-la-N1c" secondAttribute="centerY" constant="20" id="8ee-A8-erN"/>
+                    <constraint firstItem="AM4-S2-Xbm" firstAttribute="centerY" secondItem="mKR-rS-aI5" secondAttribute="centerY" constant="-10" id="CSa-cL-tkb"/>
+                    <constraint firstItem="AM4-S2-Xbm" firstAttribute="centerX" secondItem="mKR-rS-aI5" secondAttribute="centerX" id="K6Q-ng-Kwf"/>
+                    <constraint firstAttribute="trailing" secondItem="ogz-la-N1c" secondAttribute="trailing" constant="10" id="WQ3-ju-8Z9"/>
+                    <constraint firstAttribute="bottom" secondItem="ogz-la-N1c" secondAttribute="bottom" constant="10" id="goi-Pw-vSr"/>
+                    <constraint firstItem="ogz-la-N1c" firstAttribute="leading" secondItem="mKR-rS-aI5" secondAttribute="leading" constant="10" id="lEZ-oc-wLi"/>
+                    <constraint firstItem="N2W-3z-uoY" firstAttribute="top" secondItem="BfI-jg-6C1" secondAttribute="top" id="pr3-Z2-NWv"/>
+                    <constraint firstItem="ogz-la-N1c" firstAttribute="top" secondItem="mKR-rS-aI5" secondAttribute="top" constant="10" id="rWL-NL-qOj"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="321" y="256"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="button2" width="40" height="40"/>
+    </resources>
+</document>

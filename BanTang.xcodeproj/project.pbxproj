@@ -14,6 +14,8 @@
 		70A67F121C643069004EBDCC /* BTHomeListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 70A67F111C643069004EBDCC /* BTHomeListCell.m */; };
 		70A67F151C6434DC004EBDCC /* BTListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70A67F141C6434DC004EBDCC /* BTListViewController.m */; };
 		70A67F181C644E1D004EBDCC /* BTListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 70A67F171C644E1D004EBDCC /* BTListModel.m */; };
+		70AF66F11C731FB900A81549 /* BTProductListSectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 70AF66F01C731FB900A81549 /* BTProductListSectionView.m */; };
+		70AF66F31C731FD100A81549 /* BTProductListSectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70AF66F21C731FD100A81549 /* BTProductListSectionView.xib */; };
 		70B909101C60593E00F970D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 70B9090F1C60593E00F970D5 /* AppDelegate.m */; };
 		70B9092A1C60596C00F970D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70B909231C60596C00F970D5 /* Assets.xcassets */; };
 		70B9092B1C60596C00F970D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70B909241C60596C00F970D5 /* LaunchScreen.storyboard */; };
@@ -72,11 +74,13 @@
 		70C2FBC51C648AE6003DD062 /* BTHomePresent.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C2FBC41C648AE6003DD062 /* BTHomePresent.m */; };
 		70F9D2731C716A74009394A9 /* BTProductViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F9D2721C716A74009394A9 /* BTProductViewController.m */; };
 		70F9D2751C716AB6009394A9 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 70F9D2741C716AB6009394A9 /* README.md */; };
-		70F9D27D1C718371009394A9 /* BTProductMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F9D27C1C718371009394A9 /* BTProductMenuController.m */; };
 		70F9D2811C719038009394A9 /* BTProductMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F9D2801C719038009394A9 /* BTProductMenuView.m */; };
 		70F9D2851C71A372009394A9 /* BTProductMenuItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F9D2841C71A372009394A9 /* BTProductMenuItemCell.m */; };
 		70F9D2871C71A38B009394A9 /* BTProductMenuItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70F9D2861C71A38B009394A9 /* BTProductMenuItemCell.xib */; };
 		70F9D28B1C71B4E8009394A9 /* BTProductPresent.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F9D28A1C71B4E8009394A9 /* BTProductPresent.m */; };
+		70F9D28E1C72BA19009394A9 /* BTProductTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F9D28D1C72BA19009394A9 /* BTProductTitleView.m */; };
+		70F9D2921C72CA9C009394A9 /* BTProductListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F9D2911C72CA9C009394A9 /* BTProductListCell.m */; };
+		70F9D2941C72CAB3009394A9 /* BTProductListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70F9D2931C72CAB3009394A9 /* BTProductListCell.xib */; };
 		888818E531C926C5127849F6 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A733D47957D4F94600E389A /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -94,6 +98,9 @@
 		70A67F141C6434DC004EBDCC /* BTListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTListViewController.m; sourceTree = "<group>"; };
 		70A67F161C644E1D004EBDCC /* BTListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTListModel.h; sourceTree = "<group>"; };
 		70A67F171C644E1D004EBDCC /* BTListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTListModel.m; sourceTree = "<group>"; };
+		70AF66EF1C731FB900A81549 /* BTProductListSectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTProductListSectionView.h; sourceTree = "<group>"; };
+		70AF66F01C731FB900A81549 /* BTProductListSectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTProductListSectionView.m; sourceTree = "<group>"; };
+		70AF66F21C731FD100A81549 /* BTProductListSectionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BTProductListSectionView.xib; sourceTree = "<group>"; };
 		70B909081C60593E00F970D5 /* BanTang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BanTang.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70B9090E1C60593E00F970D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		70B9090F1C60593E00F970D5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -197,8 +204,6 @@
 		70F9D2711C716A74009394A9 /* BTProductViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTProductViewController.h; sourceTree = "<group>"; };
 		70F9D2721C716A74009394A9 /* BTProductViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTProductViewController.m; sourceTree = "<group>"; };
 		70F9D2741C716AB6009394A9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		70F9D27B1C718371009394A9 /* BTProductMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTProductMenuController.h; sourceTree = "<group>"; };
-		70F9D27C1C718371009394A9 /* BTProductMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTProductMenuController.m; sourceTree = "<group>"; };
 		70F9D27F1C719037009394A9 /* BTProductMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTProductMenuView.h; sourceTree = "<group>"; };
 		70F9D2801C719038009394A9 /* BTProductMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTProductMenuView.m; sourceTree = "<group>"; };
 		70F9D2831C71A372009394A9 /* BTProductMenuItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTProductMenuItemCell.h; sourceTree = "<group>"; };
@@ -206,6 +211,12 @@
 		70F9D2861C71A38B009394A9 /* BTProductMenuItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BTProductMenuItemCell.xib; sourceTree = "<group>"; };
 		70F9D2891C71B4E8009394A9 /* BTProductPresent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTProductPresent.h; sourceTree = "<group>"; };
 		70F9D28A1C71B4E8009394A9 /* BTProductPresent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTProductPresent.m; sourceTree = "<group>"; };
+		70F9D28C1C72BA19009394A9 /* BTProductTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTProductTitleView.h; sourceTree = "<group>"; };
+		70F9D28D1C72BA19009394A9 /* BTProductTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTProductTitleView.m; sourceTree = "<group>"; };
+		70F9D28F1C72C892009394A9 /* BTDefaultConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTDefaultConfig.h; sourceTree = "<group>"; };
+		70F9D2901C72CA9C009394A9 /* BTProductListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTProductListCell.h; sourceTree = "<group>"; };
+		70F9D2911C72CA9C009394A9 /* BTProductListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTProductListCell.m; sourceTree = "<group>"; };
+		70F9D2931C72CAB3009394A9 /* BTProductListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BTProductListCell.xib; sourceTree = "<group>"; };
 		9A733D47957D4F94600E389A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2C63C332C246A5AEF4DF7DC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -286,10 +297,10 @@
 		70B909301C605A1E00F970D5 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				70B909721C608D4200F970D5 /* HomeModule */,
-				70F9D26F1C716966009394A9 /* ProductModule */,
 				70B909841C608EB700F970D5 /* AddModule */,
+				70B909721C608D4200F970D5 /* HomeModule */,
 				70B909731C608DAE00F970D5 /* MessageModule */,
+				70F9D26F1C716966009394A9 /* ProductModule */,
 				70B9097A1C608E5400F970D5 /* UserModule */,
 				70B909401C605D2700F970D5 /* README.md */,
 			);
@@ -635,6 +646,7 @@
 			children = (
 				70B909AC1C60A73D00F970D5 /* UIConfig.h */,
 				70C19E531C632671006640C3 /* URLConfig.h */,
+				70F9D28F1C72C892009394A9 /* BTDefaultConfig.h */,
 			);
 			path = Marco;
 			sourceTree = "<group>";
@@ -762,8 +774,9 @@
 		70F9D26F1C716966009394A9 /* ProductModule */ = {
 			isa = PBXGroup;
 			children = (
-				70F9D2881C71B4C2009394A9 /* Present */,
 				70F9D2701C716996009394A9 /* Controller */,
+				70F9D2881C71B4C2009394A9 /* Present */,
+				70F9D27E1C71900D009394A9 /* View */,
 				70F9D2741C716AB6009394A9 /* README.md */,
 			);
 			path = ProductModule;
@@ -772,21 +785,10 @@
 		70F9D2701C716996009394A9 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				70F9D27E1C71900D009394A9 /* View */,
-				70F9D27A1C718350009394A9 /* Menu */,
 				70F9D2711C716A74009394A9 /* BTProductViewController.h */,
 				70F9D2721C716A74009394A9 /* BTProductViewController.m */,
 			);
 			path = Controller;
-			sourceTree = "<group>";
-		};
-		70F9D27A1C718350009394A9 /* Menu */ = {
-			isa = PBXGroup;
-			children = (
-				70F9D27B1C718371009394A9 /* BTProductMenuController.h */,
-				70F9D27C1C718371009394A9 /* BTProductMenuController.m */,
-			);
-			name = Menu;
 			sourceTree = "<group>";
 		};
 		70F9D27E1C71900D009394A9 /* View */ = {
@@ -795,8 +797,13 @@
 				70F9D2821C71A31A009394A9 /* Cell */,
 				70F9D27F1C719037009394A9 /* BTProductMenuView.h */,
 				70F9D2801C719038009394A9 /* BTProductMenuView.m */,
+				70F9D28C1C72BA19009394A9 /* BTProductTitleView.h */,
+				70F9D28D1C72BA19009394A9 /* BTProductTitleView.m */,
+				70AF66EF1C731FB900A81549 /* BTProductListSectionView.h */,
+				70AF66F01C731FB900A81549 /* BTProductListSectionView.m */,
+				70AF66F21C731FD100A81549 /* BTProductListSectionView.xib */,
 			);
-			name = View;
+			path = View;
 			sourceTree = "<group>";
 		};
 		70F9D2821C71A31A009394A9 /* Cell */ = {
@@ -805,8 +812,11 @@
 				70F9D2831C71A372009394A9 /* BTProductMenuItemCell.h */,
 				70F9D2841C71A372009394A9 /* BTProductMenuItemCell.m */,
 				70F9D2861C71A38B009394A9 /* BTProductMenuItemCell.xib */,
+				70F9D2901C72CA9C009394A9 /* BTProductListCell.h */,
+				70F9D2911C72CA9C009394A9 /* BTProductListCell.m */,
+				70F9D2931C72CAB3009394A9 /* BTProductListCell.xib */,
 			);
-			name = Cell;
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		70F9D2881C71B4C2009394A9 /* Present */ = {
@@ -815,7 +825,7 @@
 				70F9D2891C71B4E8009394A9 /* BTProductPresent.h */,
 				70F9D28A1C71B4E8009394A9 /* BTProductPresent.m */,
 			);
-			name = Present;
+			path = Present;
 			sourceTree = "<group>";
 		};
 		B00352F87BEB105B8724865E /* Frameworks */ = {
@@ -896,6 +906,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70AF66F31C731FD100A81549 /* BTProductListSectionView.xib in Resources */,
 				70C2FBC11C64573B003DD062 /* README.md in Resources */,
 				70B909911C608FED00F970D5 /* Home.storyboard in Resources */,
 				70B9092D1C60596C00F970D5 /* Info.plist in Resources */,
@@ -904,6 +915,7 @@
 				70F9D2871C71A38B009394A9 /* BTProductMenuItemCell.xib in Resources */,
 				70B9092A1C60596C00F970D5 /* Assets.xcassets in Resources */,
 				708C3DC91C63996C00CB957E /* BTHomeMenuItem.xib in Resources */,
+				70F9D2941C72CAB3009394A9 /* BTProductListCell.xib in Resources */,
 				70B909411C605D2700F970D5 /* README.md in Resources */,
 				70B9092B1C60596C00F970D5 /* LaunchScreen.storyboard in Resources */,
 				70B909931C60900D00F970D5 /* Message.storyboard in Resources */,
@@ -968,6 +980,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70F9D2921C72CA9C009394A9 /* BTProductListCell.m in Sources */,
 				70C19E4F1C62F006006640C3 /* DDLog.m in Sources */,
 				70B909761C608DEB00F970D5 /* BTNavigationController.m in Sources */,
 				70B9093D1C605C9400F970D5 /* README.md in Sources */,
@@ -1003,7 +1016,7 @@
 				70B9092E1C60596C00F970D5 /* main.m in Sources */,
 				70B909391C605BA800F970D5 /* README.md in Sources */,
 				70F9D2851C71A372009394A9 /* BTProductMenuItemCell.m in Sources */,
-				70F9D27D1C718371009394A9 /* BTProductMenuController.m in Sources */,
+				70F9D28E1C72BA19009394A9 /* BTProductTitleView.m in Sources */,
 				70C027811C60CF5000C8BE5C /* BTPageMenuController.m in Sources */,
 				70F9D28B1C71B4E8009394A9 /* BTProductPresent.m in Sources */,
 				70C027891C61961A00C8BE5C /* BTHomeHeadView.m in Sources */,
@@ -1011,6 +1024,7 @@
 				70C2FBC51C648AE6003DD062 /* BTHomePresent.m in Sources */,
 				70B909371C605B4900F970D5 /* README.md in Sources */,
 				70B909661C6086BB00F970D5 /* UIColor+Extend.m in Sources */,
+				70AF66F11C731FB900A81549 /* BTProductListSectionView.m in Sources */,
 				70A67F0F1C64304F004EBDCC /* BTBaseTableViewCell.m in Sources */,
 				70B9097D1C608E7E00F970D5 /* BTUserController.m in Sources */,
 				70B909A31C609E5400F970D5 /* TYBasePageTabBar.m in Sources */,

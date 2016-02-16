@@ -99,7 +99,7 @@
     }
     _currentIndex = index;
     
-    NSLog(@"circle :%ld",(long)index);
+//    NSLog(@"circle :%ld",(long)index);
     self.menuView.pageControl.currentPage = index;
 }
 

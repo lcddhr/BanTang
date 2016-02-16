@@ -27,15 +27,16 @@ typedef NS_ENUM(NSUInteger, DDNavBarItemType) {
                              action:(dispatch_block_t)btnBlock;
 
 /*
- *  title设置
+ *  第一种方法 :title设置
  */
 - (void)dd_navTitle:(NSString *)title;
 
 /*
- *
+ * 第二种方法: title设置
  */
 - (void)dd_setCustomTitleViewWithTitle:(NSString *)title;
 
+- (void)dd_setCustomTitleView:(UIView *)view;
 /*
  *  导航栏color设置
  */

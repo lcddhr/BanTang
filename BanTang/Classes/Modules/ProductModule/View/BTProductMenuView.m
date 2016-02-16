@@ -10,7 +10,6 @@
 #import "UIConfig.h"
 #import "TYTitlePageTabBar.h"
 #import "TYSlidePageScrollView.h"
-#import "BTProductMenuController.h"
 #import "BTProductMenuItemCell.h"
 
 @interface TYBasePageTabBar ()
@@ -123,7 +122,8 @@
     return CGSizeMake(CGRectGetWidth(_collectionView.bounds) / 4.0, (kBTProductMenuViewSizeHeight - 40) / 2);
 }
 
-#pragma mark - 
+#pragma mark - TYBasePageTabBarPrivateDelegate
+
 - (void)basePageTabBar:(TYBasePageTabBar *)basePageTabBar clickedPageTabBarAtIndex:(NSInteger)index {
     
     
@@ -135,15 +135,11 @@
     
     [UIView setAnimationCurve:UIViewAnimationCurveEaseInOut];
     [_collectionView setContentOffset:CGPointMake(_selectedIndex * _collectionView.bounds.size.width, 0.0f) animated:YES];
-   [UIView commitAnimations];
+    [UIView commitAnimations];
     
 }
 
 #pragma mark - UIScrollViewDelegate
-- (void)scrollViewDidScroll:(UIScrollView *)scrollView {
-    
-
-}
 
 - (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView {
     NSInteger index = scrollView.contentOffset.x / _collectionView.bounds.size.width;

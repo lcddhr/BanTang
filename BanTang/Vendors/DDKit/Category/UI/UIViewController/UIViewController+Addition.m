@@ -93,6 +93,11 @@ static char *btnClickAction;
     self.navigationItem.titleView = titleLabel;
 }
 
+- (void)dd_setCustomTitleView:(UIView *)view {
+    
+    self.navigationItem.titleView = view;
+}
+
 - (void)dd_navBarColor:(UIColor *)color {
     
     CGRect rect = CGRectMake(0, 0, 1, 1);

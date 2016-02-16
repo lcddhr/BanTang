@@ -7,22 +7,25 @@
 //
 
 #import "BTHomeController.h"
-
-
-#import "BTListViewController.h"
-#import "BTTableViewController.h"
-
+#import "BTDefaultConfig.h"
 #import "UIViewController+Addition.h"
 
-#import "DDCircleView.h"
-
-#import "BTHomeHeadView.h"
-
-#import "UIConfig.h"
-#import "HomeDataManager.h"
+//Model
 #import "BTBannerModel.h"
 #import "BTTopicModel.h"
 
+//View
+#import "DDCircleView.h"
+#import "BTHomeHeadView.h"
+
+//Controlller
+#import "BTListViewController.h"
+#import "BTTableViewController.h"
+
+//Data
+#import "HomeDataManager.h"
+
+//Present
 #import "BTHomePresent.h"
 
 @interface BTHomeController()<BTPageMenuControllerDelegate>
@@ -89,7 +92,7 @@
     
     [[HomeDataManager manager] fetchHomeData:^(NSArray *bannerModels, NSArray *topicModels) {
         
-        NSLog(@"bannerModels %@",bannerModels);
+//        NSLog(@"bannerModels %@",bannerModels);
         _lists = topicModels;
         [self configList:topicModels];
         [self configList:topicModels];
