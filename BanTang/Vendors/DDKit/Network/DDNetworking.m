@@ -43,6 +43,7 @@ static NSDictionary *kDDHeaderDic = nil;
     kDDHeaderDic = heder;
 }
 
+
 + (BOOL)canConnectToNetwork {
     
     struct sockaddr zeroAddress;

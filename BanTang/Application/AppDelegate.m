@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "DDNetworking.h"
+#import <PINCache.h>
 
 
 @interface AppDelegate ()
@@ -22,6 +23,7 @@
     
     [DDNetworking configBaseUrl:kBTBaseURL];
     [DDNetworking enableDebugLog:YES];
+    [PINCache sharedCache] set
     
     return YES;
 }

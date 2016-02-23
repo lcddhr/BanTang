@@ -111,6 +111,7 @@
     if (!_isFinish) {
         return;
     }
+    
      _currentPage++;
     [[HomeDataManager manager] pullUpFetchHomeDataWithPage:_currentPage data:^(NSArray *bannerModels, NSArray *topicModels) {
        

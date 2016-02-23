@@ -10,6 +10,7 @@
 #import "BTBaseDataManager.h"
 
 typedef void(^HomeDataBlcok)(NSArray *bannerModels, NSArray *topicModels);
+
 @interface HomeDataManager : BTBaseDataManager
 
 + (instancetype)manager;
