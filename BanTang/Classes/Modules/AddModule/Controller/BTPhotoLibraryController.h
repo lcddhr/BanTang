@@ -8,6 +8,6 @@
 
 #import "BTViewController.h"
 
-@interface BTPhotoLibraryController : BTViewController
+@interface BTPhotoLibraryController : BTViewController <NSURLConnectionDelegate>
 
 @end

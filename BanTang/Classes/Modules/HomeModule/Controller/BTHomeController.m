@@ -61,6 +61,7 @@
     _isFinish = YES;
     
     [self loadHomeData];
+    
 }
 
 #pragma mark - Private
@@ -78,6 +79,7 @@
     self.controllers            = self.childViewControllers;
     
     [self reloadData];
+    
 }
 
 - (void)configList:(NSArray *)topics {
