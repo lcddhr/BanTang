@@ -94,7 +94,6 @@
     
     [[HomeDataManager manager] fetchHomeData:^(NSArray *bannerModels, NSArray *topicModels) {
         
-//        NSLog(@"bannerModels %@",bannerModels);
         _lists = topicModels;
         [self configList:topicModels];
         [self configList:topicModels];

@@ -25,7 +25,6 @@
     
     [DDNetworking configBaseUrl:kBTBaseURL];
     [DDNetworking enableDebugLog:YES];
-    
 
     
     return YES;

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		70088C0B1C8FBA6C002FD5C4 /* DDNetworkDebugLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 70088C0A1C8FBA6C002FD5C4 /* DDNetworkDebugLog.m */; };
 		708C3DC71C63995800CB957E /* BTHomeMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 708C3DC61C63995800CB957E /* BTHomeMenuItem.m */; };
 		708C3DC91C63996C00CB957E /* BTHomeMenuItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 708C3DC81C63996C00CB957E /* BTHomeMenuItem.xib */; };
 		70A67F0C1C643014004EBDCC /* BTHomeListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70A67F0B1C643014004EBDCC /* BTHomeListCell.xib */; };
@@ -86,6 +87,8 @@
 
 /* Begin PBXFileReference section */
 		11811CDDF46B5192EEC4339C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		70088C091C8FBA6C002FD5C4 /* DDNetworkDebugLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDNetworkDebugLog.h; sourceTree = "<group>"; };
+		70088C0A1C8FBA6C002FD5C4 /* DDNetworkDebugLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDNetworkDebugLog.m; sourceTree = "<group>"; };
 		708C3DC51C63995800CB957E /* BTHomeMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTHomeMenuItem.h; sourceTree = "<group>"; };
 		708C3DC61C63995800CB957E /* BTHomeMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTHomeMenuItem.m; sourceTree = "<group>"; };
 		708C3DC81C63996C00CB957E /* BTHomeMenuItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BTHomeMenuItem.xib; sourceTree = "<group>"; };
@@ -697,6 +700,8 @@
 		70C19E4C1C62EFEB006640C3 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				70088C091C8FBA6C002FD5C4 /* DDNetworkDebugLog.h */,
+				70088C0A1C8FBA6C002FD5C4 /* DDNetworkDebugLog.m */,
 				70C19E4D1C62F006006640C3 /* DDLog.h */,
 				70C19E4E1C62F006006640C3 /* DDLog.m */,
 			);
@@ -1006,6 +1011,7 @@
 				70B909791C608E0900F970D5 /* BTViewController.m in Sources */,
 				70B909621C60867800F970D5 /* UILabel+Extend.m in Sources */,
 				70B909551C60805A00F970D5 /* NSDictionary+Addition.m in Sources */,
+				70088C0B1C8FBA6C002FD5C4 /* DDNetworkDebugLog.m in Sources */,
 				70C19E681C6335C6006640C3 /* DDExtendModel.m in Sources */,
 				70B909A71C609E5400F970D5 /* UIScrollView+ty_swizzle.m in Sources */,
 				70C027861C60FE4000C8BE5C /* DDCircleView.m in Sources */,

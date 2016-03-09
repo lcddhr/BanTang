@@ -12,6 +12,7 @@
 #import "AFNetworkActivityIndicatorManager.h"
 #import "AFHTTPSessionManager.h"
 #import "EXTScope.h"
+#import "DDNetworkDebugLog.h"
 
 
 typedef NS_ENUM(NSUInteger,DDRequestMethod) {
@@ -37,6 +38,16 @@ static NSDictionary *kDDHeaderDic = nil;
     
     kDDDebugModel = isDebug;
     [DDLog setIsDebugMode:isDebug];
+    
+    if (isDebug) {
+        
+        [DDNetworkDebugLog registerNotifications];
+        
+    } else {
+        
+        [DDNetworkDebugLog closeDebug];
+    }
+
 }
 
 + (void)configHeader:(NSDictionary *)heder {

@@ -25,7 +25,6 @@ typedef void(^DDResponseFail)(NSError *error);
 
 @interface DDNetworking : NSObject
 
-
 + (void)configBaseUrl:(NSString *)url;
 
 + (void)enableDebugLog:(BOOL)isDebug;
