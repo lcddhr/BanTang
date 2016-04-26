@@ -19,6 +19,14 @@
 		64800DFA1CCF136200A23041 /* DDNetworkMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 64800DF91CCF136200A23041 /* DDNetworkMonitor.m */; };
 		64800DFD1CCF15C000A23041 /* NSUserDefaults+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 64800DFC1CCF15C000A23041 /* NSUserDefaults+Utils.m */; };
 		64800E001CCF163400A23041 /* NSError+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 64800DFF1CCF163400A23041 /* NSError+Utils.m */; };
+		64800E061CCF426E00A23041 /* DDUncaughtExceptionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 64800E051CCF426E00A23041 /* DDUncaughtExceptionHandler.m */; };
+		64800E171CCF432600A23041 /* NSObject+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = 64800E0A1CCF432600A23041 /* NSObject+MemoryLeak.m */; };
+		64800E181CCF432600A23041 /* UINavigationController+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = 64800E0C1CCF432600A23041 /* UINavigationController+MemoryLeak.m */; };
+		64800E191CCF432600A23041 /* UIPageViewController+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = 64800E0E1CCF432600A23041 /* UIPageViewController+MemoryLeak.m */; };
+		64800E1A1CCF432600A23041 /* UISplitViewController+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = 64800E101CCF432600A23041 /* UISplitViewController+MemoryLeak.m */; };
+		64800E1B1CCF432600A23041 /* UITabBarController+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = 64800E121CCF432600A23041 /* UITabBarController+MemoryLeak.m */; };
+		64800E1C1CCF432600A23041 /* UIView+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = 64800E141CCF432600A23041 /* UIView+MemoryLeak.m */; };
+		64800E1D1CCF432600A23041 /* UIViewController+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = 64800E161CCF432600A23041 /* UIViewController+MemoryLeak.m */; };
 		70088C0B1C8FBA6C002FD5C4 /* DDNetworkDebugLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 70088C0A1C8FBA6C002FD5C4 /* DDNetworkDebugLog.m */; };
 		708C3DC71C63995800CB957E /* BTHomeMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 708C3DC61C63995800CB957E /* BTHomeMenuItem.m */; };
 		708C3DC91C63996C00CB957E /* BTHomeMenuItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 708C3DC81C63996C00CB957E /* BTHomeMenuItem.xib */; };
@@ -123,6 +131,24 @@
 		64800DFC1CCF15C000A23041 /* NSUserDefaults+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+Utils.m"; sourceTree = "<group>"; };
 		64800DFE1CCF163400A23041 /* NSError+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+Utils.h"; sourceTree = "<group>"; };
 		64800DFF1CCF163400A23041 /* NSError+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+Utils.m"; sourceTree = "<group>"; };
+		64800E021CCF1A4A00A23041 /* DDMarco.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDMarco.h; sourceTree = "<group>"; };
+		64800E041CCF426E00A23041 /* DDUncaughtExceptionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDUncaughtExceptionHandler.h; sourceTree = "<group>"; };
+		64800E051CCF426E00A23041 /* DDUncaughtExceptionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDUncaughtExceptionHandler.m; sourceTree = "<group>"; };
+		64800E081CCF432600A23041 /* MLeaksFinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLeaksFinder.h; sourceTree = "<group>"; };
+		64800E091CCF432600A23041 /* NSObject+MemoryLeak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MemoryLeak.h"; sourceTree = "<group>"; };
+		64800E0A1CCF432600A23041 /* NSObject+MemoryLeak.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MemoryLeak.m"; sourceTree = "<group>"; };
+		64800E0B1CCF432600A23041 /* UINavigationController+MemoryLeak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+MemoryLeak.h"; sourceTree = "<group>"; };
+		64800E0C1CCF432600A23041 /* UINavigationController+MemoryLeak.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+MemoryLeak.m"; sourceTree = "<group>"; };
+		64800E0D1CCF432600A23041 /* UIPageViewController+MemoryLeak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIPageViewController+MemoryLeak.h"; sourceTree = "<group>"; };
+		64800E0E1CCF432600A23041 /* UIPageViewController+MemoryLeak.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIPageViewController+MemoryLeak.m"; sourceTree = "<group>"; };
+		64800E0F1CCF432600A23041 /* UISplitViewController+MemoryLeak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISplitViewController+MemoryLeak.h"; sourceTree = "<group>"; };
+		64800E101CCF432600A23041 /* UISplitViewController+MemoryLeak.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISplitViewController+MemoryLeak.m"; sourceTree = "<group>"; };
+		64800E111CCF432600A23041 /* UITabBarController+MemoryLeak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarController+MemoryLeak.h"; sourceTree = "<group>"; };
+		64800E121CCF432600A23041 /* UITabBarController+MemoryLeak.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarController+MemoryLeak.m"; sourceTree = "<group>"; };
+		64800E131CCF432600A23041 /* UIView+MemoryLeak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MemoryLeak.h"; sourceTree = "<group>"; };
+		64800E141CCF432600A23041 /* UIView+MemoryLeak.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MemoryLeak.m"; sourceTree = "<group>"; };
+		64800E151CCF432600A23041 /* UIViewController+MemoryLeak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MemoryLeak.h"; sourceTree = "<group>"; };
+		64800E161CCF432600A23041 /* UIViewController+MemoryLeak.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MemoryLeak.m"; sourceTree = "<group>"; };
 		70088C091C8FBA6C002FD5C4 /* DDNetworkDebugLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDNetworkDebugLog.h; sourceTree = "<group>"; };
 		70088C0A1C8FBA6C002FD5C4 /* DDNetworkDebugLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDNetworkDebugLog.m; sourceTree = "<group>"; };
 		708C3DC51C63995800CB957E /* BTHomeMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTHomeMenuItem.h; sourceTree = "<group>"; };
@@ -341,6 +367,45 @@
 			path = Monitor;
 			sourceTree = "<group>";
 		};
+		64800E011CCF1A3D00A23041 /* Marco */ = {
+			isa = PBXGroup;
+			children = (
+				64800E021CCF1A4A00A23041 /* DDMarco.h */,
+			);
+			path = Marco;
+			sourceTree = "<group>";
+		};
+		64800E031CCF426E00A23041 /* ExceptionHandler */ = {
+			isa = PBXGroup;
+			children = (
+				64800E041CCF426E00A23041 /* DDUncaughtExceptionHandler.h */,
+				64800E051CCF426E00A23041 /* DDUncaughtExceptionHandler.m */,
+			);
+			path = ExceptionHandler;
+			sourceTree = "<group>";
+		};
+		64800E071CCF432600A23041 /* MLeaksFinder */ = {
+			isa = PBXGroup;
+			children = (
+				64800E081CCF432600A23041 /* MLeaksFinder.h */,
+				64800E091CCF432600A23041 /* NSObject+MemoryLeak.h */,
+				64800E0A1CCF432600A23041 /* NSObject+MemoryLeak.m */,
+				64800E0B1CCF432600A23041 /* UINavigationController+MemoryLeak.h */,
+				64800E0C1CCF432600A23041 /* UINavigationController+MemoryLeak.m */,
+				64800E0D1CCF432600A23041 /* UIPageViewController+MemoryLeak.h */,
+				64800E0E1CCF432600A23041 /* UIPageViewController+MemoryLeak.m */,
+				64800E0F1CCF432600A23041 /* UISplitViewController+MemoryLeak.h */,
+				64800E101CCF432600A23041 /* UISplitViewController+MemoryLeak.m */,
+				64800E111CCF432600A23041 /* UITabBarController+MemoryLeak.h */,
+				64800E121CCF432600A23041 /* UITabBarController+MemoryLeak.m */,
+				64800E131CCF432600A23041 /* UIView+MemoryLeak.h */,
+				64800E141CCF432600A23041 /* UIView+MemoryLeak.m */,
+				64800E151CCF432600A23041 /* UIViewController+MemoryLeak.h */,
+				64800E161CCF432600A23041 /* UIViewController+MemoryLeak.m */,
+			);
+			path = MLeaksFinder;
+			sourceTree = "<group>";
+		};
 		70A67F0A1C642FFD004EBDCC /* Cell */ = {
 			isa = PBXGroup;
 			children = (
@@ -453,6 +518,7 @@
 		70B909351C605ADC00F970D5 /* DDKit */ = {
 			isa = PBXGroup;
 			children = (
+				64800E011CCF1A3D00A23041 /* Marco */,
 				70B909421C607AD000F970D5 /* Category */,
 				70C19E591C6328E9006640C3 /* Model */,
 				70B909431C607AE500F970D5 /* Network */,
@@ -486,6 +552,8 @@
 		70B909441C607AF700F970D5 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				64800E071CCF432600A23041 /* MLeaksFinder */,
+				64800E031CCF426E00A23041 /* ExceptionHandler */,
 				64800DEF1CCF118D00A23041 /* GCD */,
 				64800DEB1CCF110900A23041 /* App */,
 				64800DDA1CCF100600A23041 /* AES */,
@@ -1120,19 +1188,23 @@
 				64800DE61CCF100600A23041 /* DDAES.m in Sources */,
 				70B909871C608EEB00F970D5 /* BTPhotoLibraryController.m in Sources */,
 				64800E001CCF163400A23041 /* NSError+Utils.m in Sources */,
+				64800E181CCF432600A23041 /* UINavigationController+MemoryLeak.m in Sources */,
 				70B909A41C609E5400F970D5 /* TYSlidePageScrollView.m in Sources */,
 				70C19E5F1C6329B3006640C3 /* HomeDataManager.m in Sources */,
 				70B909711C608D1500F970D5 /* BTTabbarController.m in Sources */,
+				64800E1A1CCF432600A23041 /* UISplitViewController+MemoryLeak.m in Sources */,
 				70A67F181C644E1D004EBDCC /* BTListModel.m in Sources */,
 				64800DE91CCF100600A23041 /* NSString+Base64.m in Sources */,
 				64800DE81CCF100600A23041 /* NSData+CommonCrypto.m in Sources */,
 				64800DEA1CCF100600A23041 /* DDRSA.m in Sources */,
 				70B909831C608EA000F970D5 /* BTHomeController.m in Sources */,
 				70F9D2731C716A74009394A9 /* BTProductViewController.m in Sources */,
+				64800E1C1CCF432600A23041 /* UIView+MemoryLeak.m in Sources */,
 				70B909A61C609E5400F970D5 /* TYTitlePageTabBar.m in Sources */,
 				70A67F151C6434DC004EBDCC /* BTListViewController.m in Sources */,
 				64800DF21CCF118D00A23041 /* GCDUtils.m in Sources */,
 				70F9D2811C719038009394A9 /* BTProductMenuView.m in Sources */,
+				64800E1B1CCF432600A23041 /* UITabBarController+MemoryLeak.m in Sources */,
 				70B909791C608E0900F970D5 /* BTViewController.m in Sources */,
 				70B909621C60867800F970D5 /* UILabel+Extend.m in Sources */,
 				70B909551C60805A00F970D5 /* NSDictionary+Addition.m in Sources */,
@@ -1143,7 +1215,10 @@
 				70B909591C6081F100F970D5 /* UIFont+Extend.m in Sources */,
 				70B909481C607B7200F970D5 /* NSObject+Predicate.m in Sources */,
 				70C19E761C633E27006640C3 /* EXTScope.m in Sources */,
+				64800E1D1CCF432600A23041 /* UIViewController+MemoryLeak.m in Sources */,
+				64800E191CCF432600A23041 /* UIPageViewController+MemoryLeak.m in Sources */,
 				70F9D2751C716AB6009394A9 /* README.md in Sources */,
+				64800E061CCF426E00A23041 /* DDUncaughtExceptionHandler.m in Sources */,
 				70B9092E1C60596C00F970D5 /* main.m in Sources */,
 				70B909391C605BA800F970D5 /* README.md in Sources */,
 				70F9D2851C71A372009394A9 /* BTProductMenuItemCell.m in Sources */,
@@ -1161,6 +1236,7 @@
 				70A67F0F1C64304F004EBDCC /* BTBaseTableViewCell.m in Sources */,
 				70B9097D1C608E7E00F970D5 /* BTUserController.m in Sources */,
 				70B909A31C609E5400F970D5 /* TYBasePageTabBar.m in Sources */,
+				64800E171CCF432600A23041 /* NSObject+MemoryLeak.m in Sources */,
 				70C19E5C1C6328FC006640C3 /* DDModel.m in Sources */,
 				70B9094C1C607D3400F970D5 /* UITabBarController+Extend.m in Sources */,
 				70B909A51C609E5400F970D5 /* TYSlidePageScrollViewController.m in Sources */,
