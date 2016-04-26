@@ -35,6 +35,29 @@
     }
 }
 
+- (NSDictionary *)dd_JsonToDic {
+    
+    if (!self) {
+        return nil;
+    }
+    
+    if ([self isKindOfClass:[NSString class]]) {
+        
+        NSString *json = (NSString *)self;
+        NSData *jsonData = [json dataUsingEncoding:NSUTF8StringEncoding];
+        NSError *err;
+        NSDictionary *dic = [NSJSONSerialization JSONObjectWithData:jsonData
+                                                            options:NSJSONReadingMutableContainers
+                                                              error:&err];
+        if(err) {
+            NSLog(@"json解析失败：%@",err);
+            return nil;
+        }
+        return dic;
+    }
+    return nil;
+}
+
 - (NSDictionary*)dd_safeDictionaryForKey:(id)key {
     
     NSDictionary* dictionary = nil;

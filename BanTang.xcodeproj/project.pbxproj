@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		64800DD91CCF0F9900A23041 /* DDTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 64800DD81CCF0F9900A23041 /* DDTimer.m */; };
+		64800DE61CCF100600A23041 /* DDAES.m in Sources */ = {isa = PBXBuildFile; fileRef = 64800DDC1CCF100600A23041 /* DDAES.m */; };
+		64800DE71CCF100600A23041 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 64800DDE1CCF100600A23041 /* NSData+Base64.m */; };
+		64800DE81CCF100600A23041 /* NSData+CommonCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = 64800DE01CCF100600A23041 /* NSData+CommonCrypto.m */; };
+		64800DE91CCF100600A23041 /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 64800DE21CCF100600A23041 /* NSString+Base64.m */; };
+		64800DEA1CCF100600A23041 /* DDRSA.m in Sources */ = {isa = PBXBuildFile; fileRef = 64800DE51CCF100600A23041 /* DDRSA.m */; };
+		64800DEE1CCF110900A23041 /* DDAppStatusMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 64800DED1CCF110900A23041 /* DDAppStatusMonitor.m */; };
+		64800DF21CCF118D00A23041 /* GCDUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 64800DF11CCF118D00A23041 /* GCDUtils.m */; };
+		64800DF61CCF130000A23041 /* DDReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 64800DF51CCF130000A23041 /* DDReachability.m */; };
+		64800DFA1CCF136200A23041 /* DDNetworkMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 64800DF91CCF136200A23041 /* DDNetworkMonitor.m */; };
 		70088C0B1C8FBA6C002FD5C4 /* DDNetworkDebugLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 70088C0A1C8FBA6C002FD5C4 /* DDNetworkDebugLog.m */; };
 		708C3DC71C63995800CB957E /* BTHomeMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 708C3DC61C63995800CB957E /* BTHomeMenuItem.m */; };
 		708C3DC91C63996C00CB957E /* BTHomeMenuItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 708C3DC81C63996C00CB957E /* BTHomeMenuItem.xib */; };
@@ -87,6 +97,26 @@
 
 /* Begin PBXFileReference section */
 		11811CDDF46B5192EEC4339C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		64800DD71CCF0F9900A23041 /* DDTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDTimer.h; sourceTree = "<group>"; };
+		64800DD81CCF0F9900A23041 /* DDTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDTimer.m; sourceTree = "<group>"; };
+		64800DDB1CCF100600A23041 /* DDAES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDAES.h; sourceTree = "<group>"; };
+		64800DDC1CCF100600A23041 /* DDAES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDAES.m; sourceTree = "<group>"; };
+		64800DDD1CCF100600A23041 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		64800DDE1CCF100600A23041 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		64800DDF1CCF100600A23041 /* NSData+CommonCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+CommonCrypto.h"; sourceTree = "<group>"; };
+		64800DE01CCF100600A23041 /* NSData+CommonCrypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+CommonCrypto.m"; sourceTree = "<group>"; };
+		64800DE11CCF100600A23041 /* NSString+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Base64.h"; sourceTree = "<group>"; };
+		64800DE21CCF100600A23041 /* NSString+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base64.m"; sourceTree = "<group>"; };
+		64800DE41CCF100600A23041 /* DDRSA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDRSA.h; sourceTree = "<group>"; };
+		64800DE51CCF100600A23041 /* DDRSA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDRSA.m; sourceTree = "<group>"; };
+		64800DEC1CCF110900A23041 /* DDAppStatusMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDAppStatusMonitor.h; sourceTree = "<group>"; };
+		64800DED1CCF110900A23041 /* DDAppStatusMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDAppStatusMonitor.m; sourceTree = "<group>"; };
+		64800DF01CCF118D00A23041 /* GCDUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDUtils.h; sourceTree = "<group>"; };
+		64800DF11CCF118D00A23041 /* GCDUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDUtils.m; sourceTree = "<group>"; };
+		64800DF41CCF130000A23041 /* DDReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDReachability.h; sourceTree = "<group>"; };
+		64800DF51CCF130000A23041 /* DDReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDReachability.m; sourceTree = "<group>"; };
+		64800DF81CCF136200A23041 /* DDNetworkMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDNetworkMonitor.h; sourceTree = "<group>"; };
+		64800DF91CCF136200A23041 /* DDNetworkMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDNetworkMonitor.m; sourceTree = "<group>"; };
 		70088C091C8FBA6C002FD5C4 /* DDNetworkDebugLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDNetworkDebugLog.h; sourceTree = "<group>"; };
 		70088C0A1C8FBA6C002FD5C4 /* DDNetworkDebugLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDNetworkDebugLog.m; sourceTree = "<group>"; };
 		708C3DC51C63995800CB957E /* BTHomeMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTHomeMenuItem.h; sourceTree = "<group>"; };
@@ -236,6 +266,75 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		64800DD61CCF0F9900A23041 /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				64800DD71CCF0F9900A23041 /* DDTimer.h */,
+				64800DD81CCF0F9900A23041 /* DDTimer.m */,
+			);
+			path = Timer;
+			sourceTree = "<group>";
+		};
+		64800DDA1CCF100600A23041 /* AES */ = {
+			isa = PBXGroup;
+			children = (
+				64800DDB1CCF100600A23041 /* DDAES.h */,
+				64800DDC1CCF100600A23041 /* DDAES.m */,
+				64800DDD1CCF100600A23041 /* NSData+Base64.h */,
+				64800DDE1CCF100600A23041 /* NSData+Base64.m */,
+				64800DDF1CCF100600A23041 /* NSData+CommonCrypto.h */,
+				64800DE01CCF100600A23041 /* NSData+CommonCrypto.m */,
+				64800DE11CCF100600A23041 /* NSString+Base64.h */,
+				64800DE21CCF100600A23041 /* NSString+Base64.m */,
+			);
+			path = AES;
+			sourceTree = "<group>";
+		};
+		64800DE31CCF100600A23041 /* RSA */ = {
+			isa = PBXGroup;
+			children = (
+				64800DE41CCF100600A23041 /* DDRSA.h */,
+				64800DE51CCF100600A23041 /* DDRSA.m */,
+			);
+			path = RSA;
+			sourceTree = "<group>";
+		};
+		64800DEB1CCF110900A23041 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				64800DEC1CCF110900A23041 /* DDAppStatusMonitor.h */,
+				64800DED1CCF110900A23041 /* DDAppStatusMonitor.m */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		64800DEF1CCF118D00A23041 /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+				64800DF01CCF118D00A23041 /* GCDUtils.h */,
+				64800DF11CCF118D00A23041 /* GCDUtils.m */,
+			);
+			path = GCD;
+			sourceTree = "<group>";
+		};
+		64800DF31CCF130000A23041 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				64800DF41CCF130000A23041 /* DDReachability.h */,
+				64800DF51CCF130000A23041 /* DDReachability.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		64800DF71CCF136200A23041 /* Monitor */ = {
+			isa = PBXGroup;
+			children = (
+				64800DF81CCF136200A23041 /* DDNetworkMonitor.h */,
+				64800DF91CCF136200A23041 /* DDNetworkMonitor.m */,
+			);
+			path = Monitor;
+			sourceTree = "<group>";
+		};
 		70A67F0A1C642FFD004EBDCC /* Cell */ = {
 			isa = PBXGroup;
 			children = (
@@ -381,6 +480,11 @@
 		70B909441C607AF700F970D5 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				64800DEF1CCF118D00A23041 /* GCD */,
+				64800DEB1CCF110900A23041 /* App */,
+				64800DDA1CCF100600A23041 /* AES */,
+				64800DE31CCF100600A23041 /* RSA */,
+				64800DD61CCF0F9900A23041 /* Timer */,
 				70C19E721C633DFA006640C3 /* EXTScope */,
 			);
 			path = Utils;
@@ -700,6 +804,8 @@
 		70C19E4C1C62EFEB006640C3 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				64800DF71CCF136200A23041 /* Monitor */,
+				64800DF31CCF130000A23041 /* Reachability */,
 				70088C091C8FBA6C002FD5C4 /* DDNetworkDebugLog.h */,
 				70088C0A1C8FBA6C002FD5C4 /* DDNetworkDebugLog.m */,
 				70C19E4D1C62F006006640C3 /* DDLog.h */,
@@ -997,16 +1103,23 @@
 				70C19E7D1C635494006640C3 /* AYVibrantButton.m in Sources */,
 				70B909511C607DAA00F970D5 /* UIImage+Extend.m in Sources */,
 				708C3DC71C63995800CB957E /* BTHomeMenuItem.m in Sources */,
+				64800DF61CCF130000A23041 /* DDReachability.m in Sources */,
 				70B909101C60593E00F970D5 /* AppDelegate.m in Sources */,
+				64800DE71CCF100600A23041 /* NSData+Base64.m in Sources */,
+				64800DE61CCF100600A23041 /* DDAES.m in Sources */,
 				70B909871C608EEB00F970D5 /* BTPhotoLibraryController.m in Sources */,
 				70B909A41C609E5400F970D5 /* TYSlidePageScrollView.m in Sources */,
 				70C19E5F1C6329B3006640C3 /* HomeDataManager.m in Sources */,
 				70B909711C608D1500F970D5 /* BTTabbarController.m in Sources */,
 				70A67F181C644E1D004EBDCC /* BTListModel.m in Sources */,
+				64800DE91CCF100600A23041 /* NSString+Base64.m in Sources */,
+				64800DE81CCF100600A23041 /* NSData+CommonCrypto.m in Sources */,
+				64800DEA1CCF100600A23041 /* DDRSA.m in Sources */,
 				70B909831C608EA000F970D5 /* BTHomeController.m in Sources */,
 				70F9D2731C716A74009394A9 /* BTProductViewController.m in Sources */,
 				70B909A61C609E5400F970D5 /* TYTitlePageTabBar.m in Sources */,
 				70A67F151C6434DC004EBDCC /* BTListViewController.m in Sources */,
+				64800DF21CCF118D00A23041 /* GCDUtils.m in Sources */,
 				70F9D2811C719038009394A9 /* BTProductMenuView.m in Sources */,
 				70B909791C608E0900F970D5 /* BTViewController.m in Sources */,
 				70B909621C60867800F970D5 /* UILabel+Extend.m in Sources */,
@@ -1023,6 +1136,7 @@
 				70B909391C605BA800F970D5 /* README.md in Sources */,
 				70F9D2851C71A372009394A9 /* BTProductMenuItemCell.m in Sources */,
 				70F9D28E1C72BA19009394A9 /* BTProductTitleView.m in Sources */,
+				64800DFA1CCF136200A23041 /* DDNetworkMonitor.m in Sources */,
 				70C027811C60CF5000C8BE5C /* BTPageMenuController.m in Sources */,
 				70F9D28B1C71B4E8009394A9 /* BTProductPresent.m in Sources */,
 				70C027891C61961A00C8BE5C /* BTHomeHeadView.m in Sources */,
@@ -1031,6 +1145,7 @@
 				70B909371C605B4900F970D5 /* README.md in Sources */,
 				70B909661C6086BB00F970D5 /* UIColor+Extend.m in Sources */,
 				70AF66F11C731FB900A81549 /* BTProductListSectionView.m in Sources */,
+				64800DD91CCF0F9900A23041 /* DDTimer.m in Sources */,
 				70A67F0F1C64304F004EBDCC /* BTBaseTableViewCell.m in Sources */,
 				70B9097D1C608E7E00F970D5 /* BTUserController.m in Sources */,
 				70B909A31C609E5400F970D5 /* TYBasePageTabBar.m in Sources */,
@@ -1042,6 +1157,7 @@
 				70B9096A1C60873C00F970D5 /* UIView+Extend.m in Sources */,
 				70A67F121C643069004EBDCC /* BTHomeListCell.m in Sources */,
 				70B9095E1C6082CD00F970D5 /* NSString+Extend.m in Sources */,
+				64800DEE1CCF110900A23041 /* DDAppStatusMonitor.m in Sources */,
 				70C19E791C634C51006640C3 /* BTTopicModel.m in Sources */,
 				70C19E4B1C62EC4D006640C3 /* DDNetworking.m in Sources */,
 			);

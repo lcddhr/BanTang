@@ -13,6 +13,7 @@
 - (BOOL)dd_isEmpty;
 
 - (NSString *)dd_dictionaryToJson;
+- (NSDictionary *)dd_JsonToDic;
 
 - (NSDictionary*)dd_safeDictionaryForKey:(id)key;
 @end
