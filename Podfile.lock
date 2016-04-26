@@ -16,6 +16,7 @@ PODS:
     - AFNetworking/NSURLSession
   - FMDB/SQLCipher (2.6):
     - SQLCipher
+  - FrameAccessor (2.0)
   - libwebp (0.5.0):
     - libwebp/core (= 0.5.0)
     - libwebp/dec (= 0.5.0)
@@ -69,6 +70,7 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking (~> 3.0.4)
+  - FrameAccessor (~> 2.0)
   - LTNavigationBar (~> 2.1.1)
   - MJExtension (~> 3.0.10)
   - MJRefresh (~> 3.1.0)
@@ -81,6 +83,7 @@ DEPENDENCIES:
 SPEC CHECKSUMS:
   AFNetworking: a0075feb321559dc78d9d85b55d11caa19eabb93
   FMDB: c1968bab3ab0aed38f66cb778ae1e7fa9a652b6e
+  FrameAccessor: 443a13e58e23a10ff22180da0897b28c3f6abf66
   libwebp: 68ba2001ba6806ee52837ebd77a551a0b6567e4e
   LTNavigationBar: b1c15fdcc32453d84f8b9fc774fff611c184dfbb
   M13ProgressSuite: 03d194af6359da440641ba758aed5a18b0386a86

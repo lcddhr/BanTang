@@ -17,6 +17,8 @@
 		64800DF21CCF118D00A23041 /* GCDUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 64800DF11CCF118D00A23041 /* GCDUtils.m */; };
 		64800DF61CCF130000A23041 /* DDReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 64800DF51CCF130000A23041 /* DDReachability.m */; };
 		64800DFA1CCF136200A23041 /* DDNetworkMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 64800DF91CCF136200A23041 /* DDNetworkMonitor.m */; };
+		64800DFD1CCF15C000A23041 /* NSUserDefaults+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 64800DFC1CCF15C000A23041 /* NSUserDefaults+Utils.m */; };
+		64800E001CCF163400A23041 /* NSError+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 64800DFF1CCF163400A23041 /* NSError+Utils.m */; };
 		70088C0B1C8FBA6C002FD5C4 /* DDNetworkDebugLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 70088C0A1C8FBA6C002FD5C4 /* DDNetworkDebugLog.m */; };
 		708C3DC71C63995800CB957E /* BTHomeMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 708C3DC61C63995800CB957E /* BTHomeMenuItem.m */; };
 		708C3DC91C63996C00CB957E /* BTHomeMenuItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 708C3DC81C63996C00CB957E /* BTHomeMenuItem.xib */; };
@@ -117,6 +119,10 @@
 		64800DF51CCF130000A23041 /* DDReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDReachability.m; sourceTree = "<group>"; };
 		64800DF81CCF136200A23041 /* DDNetworkMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDNetworkMonitor.h; sourceTree = "<group>"; };
 		64800DF91CCF136200A23041 /* DDNetworkMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDNetworkMonitor.m; sourceTree = "<group>"; };
+		64800DFB1CCF15C000A23041 /* NSUserDefaults+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+Utils.h"; sourceTree = "<group>"; };
+		64800DFC1CCF15C000A23041 /* NSUserDefaults+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+Utils.m"; sourceTree = "<group>"; };
+		64800DFE1CCF163400A23041 /* NSError+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+Utils.h"; sourceTree = "<group>"; };
+		64800DFF1CCF163400A23041 /* NSError+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+Utils.m"; sourceTree = "<group>"; };
 		70088C091C8FBA6C002FD5C4 /* DDNetworkDebugLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDNetworkDebugLog.h; sourceTree = "<group>"; };
 		70088C0A1C8FBA6C002FD5C4 /* DDNetworkDebugLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDNetworkDebugLog.m; sourceTree = "<group>"; };
 		708C3DC51C63995800CB957E /* BTHomeMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTHomeMenuItem.h; sourceTree = "<group>"; };
@@ -493,6 +499,10 @@
 		70B909451C607B0400F970D5 /* NSObject */ = {
 			isa = PBXGroup;
 			children = (
+				64800DFE1CCF163400A23041 /* NSError+Utils.h */,
+				64800DFF1CCF163400A23041 /* NSError+Utils.m */,
+				64800DFB1CCF15C000A23041 /* NSUserDefaults+Utils.h */,
+				64800DFC1CCF15C000A23041 /* NSUserDefaults+Utils.m */,
 				70B909461C607B7200F970D5 /* NSObject+Predicate.h */,
 				70B909471C607B7200F970D5 /* NSObject+Predicate.m */,
 			);
@@ -1103,11 +1113,13 @@
 				70C19E7D1C635494006640C3 /* AYVibrantButton.m in Sources */,
 				70B909511C607DAA00F970D5 /* UIImage+Extend.m in Sources */,
 				708C3DC71C63995800CB957E /* BTHomeMenuItem.m in Sources */,
+				64800DFD1CCF15C000A23041 /* NSUserDefaults+Utils.m in Sources */,
 				64800DF61CCF130000A23041 /* DDReachability.m in Sources */,
 				70B909101C60593E00F970D5 /* AppDelegate.m in Sources */,
 				64800DE71CCF100600A23041 /* NSData+Base64.m in Sources */,
 				64800DE61CCF100600A23041 /* DDAES.m in Sources */,
 				70B909871C608EEB00F970D5 /* BTPhotoLibraryController.m in Sources */,
+				64800E001CCF163400A23041 /* NSError+Utils.m in Sources */,
 				70B909A41C609E5400F970D5 /* TYSlidePageScrollView.m in Sources */,
 				70C19E5F1C6329B3006640C3 /* HomeDataManager.m in Sources */,
 				70B909711C608D1500F970D5 /* BTTabbarController.m in Sources */,
