@@ -51,6 +51,13 @@ PODS:
     - FMDB/SQLCipher (~> 2.5)
   - PINCache (2.1.2)
   - pop (1.0.8)
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
   - SDCycleScrollView (1.61):
     - SDWebImage (~> 3.7)
   - SDWebImage (3.7.5):
@@ -77,6 +84,7 @@ DEPENDENCIES:
   - MMTweenAnimation (HEAD)
   - NetworkEye (~> 1.0.1)
   - PINCache (~> 2.1.2)
+  - ReactiveCocoa (~> 2.5)
   - SDCycleScrollView (~> 1.6)
   - UIImageView+SDWebImage_M13ProgressSuite (~> 0.1.1)
 
@@ -93,6 +101,7 @@ SPEC CHECKSUMS:
   NetworkEye: e9345b8a9c369543ab86f9b9f8a88b206d1fd94c
   PINCache: 9e70271f1bdd60c0465b7208adcc4b6acc1fc376
   pop: bb773ae2c791ca2629de13b347e7a8b450fa6a57
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
   SDCycleScrollView: a002d85b30cfa9d0ac74069cd3973ca19ff4f22f
   SDWebImage: 69c6303e3348fba97e03f65d65d4fbc26740f461
   SQLCipher: d490d2effe735895d2204d25a154b1e722278421

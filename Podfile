@@ -16,6 +16,8 @@ pod 'SDCycleScrollView','~> 1.6'
 
 pod 'FrameAccessor', '~> 2.0'
 
+pod 'ReactiveCocoa', '~> 2.5'
+
 
 
 
