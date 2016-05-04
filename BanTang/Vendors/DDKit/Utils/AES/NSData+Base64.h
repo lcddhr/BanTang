@@ -10,8 +10,8 @@
 
 @class NSString;
 
-@interface NSData (MTBase64Additions)
+@interface NSData (DDBase64Additions)
 
-+ (NSData *)mt_base64DataFromString:(NSString *)string;
++ (NSData *)dd_base64DataFromString:(NSString *)string;
 
 @end

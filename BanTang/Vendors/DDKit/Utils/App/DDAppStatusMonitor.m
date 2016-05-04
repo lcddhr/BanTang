@@ -16,12 +16,12 @@
 
 + (instancetype)defaultMonitor {
     
-    static DDAppStatusMonitor *mtAPPStatusMonitor = nil;
+    static DDAppStatusMonitor *ddAPPStatusMonitor = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        mtAPPStatusMonitor = [[DDAppStatusMonitor alloc] init];
+        ddAPPStatusMonitor = [[DDAppStatusMonitor alloc] init];
     });
-    return mtAPPStatusMonitor;
+    return ddAPPStatusMonitor;
 }
 
 -(instancetype)init {

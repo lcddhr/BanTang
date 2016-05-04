@@ -1,8 +1,8 @@
 //
 //  DDNetworkMonitor.h
 //
-//  Created by meitu on 16/4/14.
-//  Copyright © 2016年 meitu. All rights reserved.
+//  Created by xiaomutou on 16/4/14.
+//  Copyright © 2016年 xiaomutou. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

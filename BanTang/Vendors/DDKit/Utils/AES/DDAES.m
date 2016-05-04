@@ -1,5 +1,5 @@
 //
-//  MTAES.m
+//  DDAES.m
 //
 //  Created by lcd on 16/4/11.
 //  Copyright © 2016年 lcd. All rights reserved.
@@ -12,7 +12,7 @@
 #import <CommonCrypto/CommonDigest.h>
 #import <CommonCrypto/CommonCryptor.h>
 
-static NSString *kMTFileAESKey = @"iiii0000------nf45@#$nn";
+static NSString *kDDFileAESKey = @"iiii0000------nf45@#$nn";
 @implementation DDAES
 
 + (NSString *)encrypt:(NSString *)message key:(NSString *)key {
@@ -22,7 +22,7 @@ static NSString *kMTFileAESKey = @"iiii0000------nf45@#$nn";
 }
 
 + (NSString *)decrypt:(NSString *)base64EncodedString key:(NSString *)key {
-    NSData *encryptedData = [NSData mt_base64DataFromString:base64EncodedString];
+    NSData *encryptedData = [NSData dd_base64DataFromString:base64EncodedString];
     NSData *decryptedData = [encryptedData decryptedAES256DataUsingKey:[[key dataUsingEncoding:NSUTF8StringEncoding] SHA256Hash] error:nil];
     return [[NSString alloc] initWithData:decryptedData encoding:NSUTF8StringEncoding];
 }
@@ -46,11 +46,11 @@ static NSString *kMTFileAESKey = @"iiii0000------nf45@#$nn";
 
 + (NSData *) aes256_encrypt:(NSData *)data {
     
-    return [self aes256_encrypt:kMTFileAESKey data:data];
+    return [self aes256_encrypt:kDDFileAESKey data:data];
 }
 + (NSData *) aes256_decrypt:(NSData *)data {
 
-    return [self aes256_decrypt:kMTFileAESKey encodeData:data];
+    return [self aes256_decrypt:kDDFileAESKey encodeData:data];
 }
 
 + (NSData *) aes256_encrypt:(NSString *)key data:(NSData *)data {

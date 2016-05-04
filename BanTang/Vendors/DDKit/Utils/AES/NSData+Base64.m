@@ -8,9 +8,9 @@
 
 #import "NSData+Base64.h"
 
-@implementation NSData (MTBase64Additions)
+@implementation NSData (DDBase64Additions)
 
-+ (NSData *)mt_base64DataFromString:(NSString *)string {
++ (NSData *)dd_base64DataFromString:(NSString *)string {
   unsigned long ixtext, lentext;
   unsigned char ch, inbuf[4], outbuf[3];
   short i, ixinbuf;

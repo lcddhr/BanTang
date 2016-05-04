@@ -1,9 +1,9 @@
 //
-//  MTUncaughtExceptionHandler.h
-//  MTCrashDemo
+//  DDUncaughtExceptionHandler.h
+//  DDCrashDemo
 //
-//  Created by meitu on 16/4/18.
-//  Copyright © 2016年 meitu. All rights reserved.
+//  Created by xiaomutou on 16/4/18.
+//  Copyright © 2016年 xiaomutou. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

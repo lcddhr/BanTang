@@ -1,5 +1,5 @@
 //
-//  MTQueue.h
+//  DDQueue.h
 //  Makeup
 //
 //  Created by lcd on 15/3/31.

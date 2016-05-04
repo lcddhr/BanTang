@@ -10,12 +10,12 @@
 static NSString *kDDDomain = @"com.DD";
 @implementation NSError (Utils)
 
-+ (NSError *)mt_createErrorWithMessage:(NSString *)errorMessage errorCode:(NSInteger)errorCode {
++ (NSError *)dd_createErrorWithMessage:(NSString *)errorMessage errorCode:(NSInteger)errorCode {
     
-    return [self mt_createErrorWithDomain:kDDDomain errorMessage:errorMessage errorCode:errorCode];
+    return [self dd_createErrorWithDomain:kDDDomain errorMessage:errorMessage errorCode:errorCode];
 }
 
-+ (NSError *)mt_createErrorWithDomain:(NSString *)comain
++ (NSError *)dd_createErrorWithDomain:(NSString *)comain
                       errorMessage:(NSString *)errorMessage
                          errorCode:(NSInteger)errorCode {
     

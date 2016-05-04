@@ -1,6 +1,6 @@
 //
-//  MTUncaughtExceptionHandler.m
-//  MTCrashDemo
+//  DDUncaughtExceptionHandler.m
+//  DDCrashDemo
 //
 //  Created by xiaomutou on 16/4/18.
 //  Copyright © 2016年 xiaomutou. All rights reserved.
@@ -8,7 +8,7 @@
 
 #import "DDUncaughtExceptionHandler.h"
 
-static NSString *const kMTCrashFileName = @"MTException.txt";
+static NSString *const kDDCrashFileName = @"MTException.txt";
 
 NSString *applicationDocumentsDirectory() {
     return [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) lastObject];
@@ -31,7 +31,7 @@ void UncaughtExceptionHandler(NSException *exception) {
     
     NSString *content = [NSString stringWithFormat:@"=============异常崩溃信息=============\nname:\n %@\nreason:\n %@\n callStackSymbols:\n \n %@ \n userInfo:\n %@\n returnAddresses:\n %@",
                      name,reason,[arr componentsJoinedByString:@"\n"],userInfo, returnAddresses];
-    NSString *fileName = [NSString stringWithFormat:@"%@-%@",exceptionTime(),kMTCrashFileName];
+    NSString *fileName = [NSString stringWithFormat:@"%@-%@",exceptionTime(),kDDCrashFileName];
     NSString *path = [applicationDocumentsDirectory() stringByAppendingPathComponent:fileName];
     NSLog(@"path :%@\n",path);
     [content writeToFile:path atomically:YES encoding:NSUTF8StringEncoding error:nil];

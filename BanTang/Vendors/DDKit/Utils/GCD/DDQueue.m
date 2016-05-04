@@ -1,5 +1,5 @@
 //
-//  MTQueue.m
+//  DDQueue.m
 //  Makeup
 //
 //  Created by lcd on 15/3/31.
@@ -9,7 +9,7 @@
 #import "DDQueue.h"
 #import "DDAppState.h"
 
-static void *kMTQueueKey;
+static void *kDDQueueKey;
 
 @interface DDQueueTask : NSObject
 @property (nonatomic, strong) dispatch_block_t block;
@@ -31,8 +31,8 @@ static void *kMTQueueKey;
 {
     self = [super init];
     if(self){
-        _contextQueue = dispatch_queue_create("MTQueue", DISPATCH_QUEUE_SERIAL);
-        dispatch_queue_set_specific(_contextQueue, kMTQueueKey, (__bridge void *)self, NULL);
+        _contextQueue = dispatch_queue_create("DDQueue", DISPATCH_QUEUE_SERIAL);
+        dispatch_queue_set_specific(_contextQueue, kDDQueueKey, (__bridge void *)self, NULL);
         [[DDAppState sharedAppState] addTarget:(id<DDAppStateTarget>)self];
         _tempQueue = [NSMutableArray array];
     }
@@ -115,7 +115,7 @@ static void *kMTQueueKey;
 
 - (void)runSyncProcessingQueue:(void (^)(void))block
 {
-    if (dispatch_get_specific(kMTQueueKey))
+    if (dispatch_get_specific(kDDQueueKey))
     {
         block();
     }
@@ -126,7 +126,7 @@ static void *kMTQueueKey;
 }
 - (void)runAsyncProcessingQueue:(void (^)(void))block
 {
-    if (dispatch_get_specific(kMTQueueKey))
+    if (dispatch_get_specific(kDDQueueKey))
     {
         block();
     }

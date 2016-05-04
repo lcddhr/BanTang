@@ -1,5 +1,5 @@
 //
-//  MTAppState.m
+//  DDAppState.m
 //  Makeup
 //
 //  Created by lcd on 15/3/25.
